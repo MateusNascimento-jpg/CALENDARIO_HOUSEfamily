@@ -25,10 +25,10 @@ A colorful, shared calendar web app. Anyone with the link can view the calendar 
 
 ```
 cale/
- public/          # Front-end: everything sent to the browser
- index.html   # Single-page calendar app
- server/          # Back-end: runs only on the server
- index.ts     # HTTP server and API entry point
+public/          # Front-end: everything sent to the browser
+index.html   # Single-page calendar app
+server/          # Back-end: runs only on the server
+index.ts     # HTTP server and API entry point
 package.json     # Project manifest and dependencies
 .gitignore       # Files Git must ignore (node_modules, .env)
 ```
