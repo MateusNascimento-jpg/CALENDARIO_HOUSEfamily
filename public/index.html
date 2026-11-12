@@ -6,6 +6,24 @@
   <title>Bueno's Dias</title>
 </head>
 <body>
-  <h1>Bueno's Dias</h1>
+  <header>
+    <div class="logo">Bueno's Dias</div>
+
+    <button type="button" id="prev" aria-label="Anterior">‹</button>
+    <button type="button" id="next" aria-label="Próximo">›</button>
+    <h1 class="date-title">Novembro 2026</h1>
+    <button type="button" id="today">Hoje</button>
+
+    <nav class="viewswitch">
+      <button type="button" data-view="month">Mês</button>
+      <button type="button" data-view="week">Semana</button>
+      <button type="button" data-view="day">Dia</button>
+      <button type="button" data-view="agenda">Agenda</button>
+    </nav>
+
+    <button type="button" id="new-event">+ Novo Evento</button>
+  </header>
+
+  <main id="calendar"></main>
 </body>
 </html>
