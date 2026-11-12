@@ -1,0 +1,23 @@
+/* ====== Month grid ====== */
+.weekdays {
+    display: grid;
+    grid-template-columns: repeat(7, minmax(0, 1fr));
+    gap: 8px;
+    padding: 16px 16px 8px;
+    font-weight: 700;
+    text-align: center;
+}
+
+#month-grid {
+    display: grid;
+    grid-template-columns: repeat(7, minmax(0, 1fr));
+    gap: 8px;
+    padding: 8px 16px 16px;
+}
+
+.day-cell {
+    min-height: 100px;
+    padding: 6px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+}
