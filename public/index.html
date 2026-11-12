@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Bueno's Dias</title>
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
   <header>
@@ -24,6 +25,24 @@
     <button type="button" id="new-event">+ Novo Evento</button>
   </header>
 
-  <main id="calendar"></main>
+  <main id="calendar">
+    <section class="month-view">
+      <div class="weekdays">
+        <span>Dom</span>
+        <span>Seg</span>
+        <span>Ter</span>
+        <span>Qua</span>
+        <span>Qui</span>
+        <span>Sex</span>
+        <span>Sáb</span>
+      </div>
+
+      <div id="month-grid">
+        <div class="day-cell">1</div>
+        <div class="day-cell">2</div>
+        <div class="day-cell">3</div>
+      </div>
+    </section>
+  </main>
 </body>
 </html>
